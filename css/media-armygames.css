@@ -1,0 +1,155 @@
+
+
+@media screen  and (max-height:69vw){
+header img{
+	width: auto!important;
+	height: 90vh
+}
+}
+@media screen and (max-width:1100px){
+	article .flex_center.new{
+		width:100%;
+	}
+	article .flex_center.new:nth-child(odd){
+		flex-wrap: wrap-reverse;
+	}
+}
+@media screen and (max-width:1000px){
+header img{
+	width: 97%;
+	margin-top:0;
+}
+.navbtn{
+	display: block;
+}
+.icon{
+	display: block
+}
+nav{
+	width: 50%;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: flex-start;
+	transform: translateX(0);
+	overflow: auto;
+	flex-wrap: nowrap;
+}
+nav img{
+	margin-top:20px;
+}
+nav a{
+	font-size: 15px;
+	margin: 30px 0
+}
+nav .linkgames p{
+	font-size: 15px
+}
+.navbtn:checked ~ nav{
+	transform: translateX(-200%);
+}
+}
+
+@media screen and (max-width:800px){
+form{
+	width: 100%;
+}
+.sectiontext{
+	width: 100%;
+	background: rgba(0,0,0,0.5);
+}
+article .testflex{
+	width: 90%;
+	flex-direction: column;
+}
+article .friends{
+	justify-content: space-around;
+}
+article .friends a{
+	margin:20px 0
+}
+article{
+	padding-bottom: 30px
+}
+article h2{
+	margin-top:30px;
+}
+}
+ @media (min-aspect-ratio: 16/9) {
+    video{
+     	height:300%;
+     	top: -100%;
+    }
+ }
+ @media (max-aspect-ratio: 16/9) {
+     video { width: 300%; left: -100%; }
+ }
+@media screen and (max-width:600px){
+	video{
+		transform: scale(1.4);
+	}
+article h2{
+	font-size: 23px
+}
+nav{
+		width: 70%
+}
+article .tournamenttext p{
+	text-indent: 4px;
+	word-spacing: 1px;
+	font-size: 15px;
+}
+article .tournamenttext ul{
+	padding-left:20px;
+}
+article .tournamenttext ul li{
+	font-size: 15px;
+}
+
+article .testflex p{
+	text-indent: 0;
+}
+article .tournamenttext.newParagraph{
+	width: 85%
+}
+article img.newImg{
+	width: 92%
+}
+article h2.newHeading{
+	font-size: 20px
+}
+.newCard{
+	margin: 10px;
+	padding-right:10px;
+}
+.sectiontext .content{
+	width: 85%;
+	margin: 0 30px
+}
+footer .contacts{
+	width: 100%;
+	margin: 15px 0
+}
+footer .contacts .contact{
+	width: 160px;
+	margin:0 0 30px 0;
+}
+.contact h3{
+	font-size: 0.7em;
+}
+@media screen and (max-width:470px){
+	nav{
+		width: 100%
+	}
+	article .friends a img{
+		margin: 0 10px
+	}
+	.gallery a{
+		margin: 5px 5px 0 5px;
+		width: auto;
+		max-width: 46.8%;
+	}
+	.gallery a img{
+		padding:0;
+		width:100%;
+	}
+}
